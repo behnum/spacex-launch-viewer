@@ -4,7 +4,9 @@ A React pilot that allows users to view SpaceX launches. The application fetches
 
 ## Demo
 
-🛰️ [Available on Vercel](https://spacex-launch-viewer.vercel.app/)
+<img src="./Vercel.png" alt="Vercel Logo" width="10%" height="10%" />
+
+🛰️ [See it in action](https://spacex-launch-viewer.vercel.app/)
 
 ## Installation
 
@@ -43,16 +45,6 @@ The application will be running at [http://localhost:3000](http://localhost:3000
 ![Bundle Size](./bundlephobia.jpg)
 Credits: [bundlephobia.com](https://bundlephobia.com)
 
-## Credits
-
-The following resources/ideas were used in the creation of this project:
-
-- [SpaceX API](https://github.com/r-spacex/SpaceX-API) 🚀
-- [Tailwind CSS](https://tailwindcss.com/) 📏
-- [Stars: a CodePen by sarazond](https://codepen.io/sarazond/full/LYGbwj) 🌟
-- [Glowing Gradient Button: a CodePen by Denis](https://codepen.io/deniscreative/pen/jObmdNW) 🔆
-- [Din Psykolog](https://dinpsykolog.se/) for their idea / instructions for this endeavour. 💚
-
 ## Responsive Screenshots
 
 iPhone 12
@@ -66,6 +58,16 @@ iPad
 MacBook Pro
 
 <img src="./Responsively-Screenshots/MacBook%20Pro.jpeg" alt="MacBook Pro" width="30%" height="30%" />
+
+## Credits
+
+The following resources/ideas were used in the creation of this project:
+
+- [SpaceX API](https://github.com/r-spacex/SpaceX-API) 🚀
+- [Tailwind CSS](https://tailwindcss.com/) 📏
+- [Stars: a CodePen by sarazond](https://codepen.io/sarazond/full/LYGbwj) 🌟
+- [Glowing Gradient Button: a CodePen by Denis](https://codepen.io/deniscreative/pen/jObmdNW) 🔆
+- [Din Psykolog](https://dinpsykolog.se/) for their idea / instructions for this endeavour. 💚
 
 ## License
 
