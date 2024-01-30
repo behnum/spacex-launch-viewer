@@ -26,7 +26,7 @@ const App = () => {
           <>
             <div className='button-container'>
               <button className='btn-plain' onClick={handleNextButtonClick}>
-                Next Launch
+                NEXT LAUNCH
               </button>
             </div>
             <div className='launch-container'>
