@@ -10,7 +10,8 @@ const App = () => {
   }
 
   const handleRandomButtonClick = () => {
-    // TODO: Implement this
+    const randomIndex = Math.floor(Math.random() * launches.length)
+    setCurrentIndex(randomIndex)
   }
 
   return (
