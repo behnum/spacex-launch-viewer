@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import useSpaceXLaunches from '../useSpaceXLaunches'
+import useSpaceXLaunches from './hooks/useSpaceXLaunches'
 
 const App = () => {
   const { launches, loading } = useSpaceXLaunches()
@@ -15,7 +15,21 @@ const App = () => {
 
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>SpaceX-Launch-Viewer</h1>
+      <>
+        <div className='spaceX-container'>
+          <h1>SpaceX Launches</h1>
+          {loading ? (
+            <p>Loading...</p>
+          ) : launches.length > 0 ? (
+            <>
+              <p>data arrived...</p>
+              {console.log(launches)}
+            </>
+          ) : (
+            <p>No launches with images available!</p>
+          )}
+        </div>
+      </>
     </>
   )
 }
