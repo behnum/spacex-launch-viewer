@@ -6,7 +6,7 @@ const App = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const handleNextButtonClick = () => {
-    // TODO: Implement this
+    setCurrentIndex(prevIndex => (prevIndex + 1) % launches.length)
   }
 
   const handleRandomButtonClick = () => {
