@@ -2,6 +2,23 @@
 
 A React pilot that allows users to view SpaceX launches. The application fetches launch data from the SpaceX API and displays a random launch image along with other bits and bobs such as the launch name and date.
 
+## Table of Contents
+
+- [SpaceX Launch Viewer](#spacex-launch-viewer)
+  - [Table of Contents](#table-of-contents)
+  - [SpaceX Launch Server](#spacex-launch-server)
+  - [Demo](#demo)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Bundle Size](#bundle-size)
+  - [Responsive Screenshots](#responsive-screenshots)
+  - [Credits](#credits)
+  - [License](#license)
+
+## SpaceX Launch Server
+
+There is a Node.js server that I created to fetch the data from the SpaceX API and serve a link to a random Flickr image associated with the launch to the client. The server can be found [here](https://github.com/behnum/spacex-launch-server).
+
 ## Demo
 
 <img src="./Vercel.png" alt="Vercel Logo" width="10%" height="10%" />
