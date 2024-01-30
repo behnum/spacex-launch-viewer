@@ -2,6 +2,10 @@
 
 A React pilot that allows users to view SpaceX launches. The application fetches launch data from the SpaceX API and displays a random launch image along with other bits and bobs such as the launch name and date.
 
+## Demo
+
+🛰️ [Available on Vercel](https://spacex-launch-viewer.vercel.app/)
+
 ## Installation
 
 To use this project, follow these steps:
