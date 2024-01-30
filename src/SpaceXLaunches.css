@@ -45,7 +45,7 @@ h1 {
 
 /* Button Container */
 
-.button-container {
+.button-container:last-of-type {
   margin-top: 20px;
 }
 
