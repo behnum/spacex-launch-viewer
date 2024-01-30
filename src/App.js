@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import useSpaceXLaunches from './hooks/useSpaceXLaunches'
 
+import './SpaceXLaunches.css'
+
 const App = () => {
   const { launches, loading } = useSpaceXLaunches()
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -16,21 +18,37 @@ const App = () => {
 
   return (
     <>
-      <>
-        <div className='spaceX-container'>
-          <h1>SpaceX Launches</h1>
-          {loading ? (
-            <p>Loading...</p>
-          ) : launches.length > 0 ? (
-            <>
-              <p>data arrived...</p>
-              {console.log(launches)}
-            </>
-          ) : (
-            <p>No launches with images available!</p>
-          )}
-        </div>
-      </>
+      <div className='spaceX-container'>
+        {loading ? (
+          <p id='loading'>Loading...</p>
+        ) : launches.length > 0 ? (
+          <>
+            <div className='button-container'>
+              <button className='btn-plain' onClick={handleNextButtonClick}>
+                Next Launch
+              </button>
+            </div>
+            <div className='launch-container'>
+              <img
+                src={launches[currentIndex].links.flickr.original[0]}
+                alt={`Flickr for ${launches[currentIndex].name}`}
+                className='launch-image'
+              />
+              {launches[currentIndex].name}
+              {' ('}
+              {new Date(launches[currentIndex].date_utc).toLocaleDateString()}
+              {') '}
+            </div>
+            <div className='button-container'>
+              <button className='btn' onClick={handleRandomButtonClick}>
+                Random
+              </button>
+            </div>
+          </>
+        ) : (
+          <p>No launches with images available</p>
+        )}
+      </div>
     </>
   )
 }
