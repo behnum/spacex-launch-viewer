@@ -2,6 +2,7 @@ import { useState } from 'react'
 import useSpaceXLaunches from './hooks/useSpaceXLaunches'
 
 import './SpaceXLaunches.css'
+import Stars from './components/Stars'
 
 const App = () => {
   const { launches, loading } = useSpaceXLaunches()
@@ -49,6 +50,7 @@ const App = () => {
           <p>No launches with images available</p>
         )}
       </div>
+      <Stars />
     </>
   )
 }
