@@ -53,6 +53,20 @@ The following resources/ideas were used in the creation of this project:
 - [Glowing Gradient Button: a CodePen by Denis](https://codepen.io/deniscreative/pen/jObmdNW) 🔆
 - [Din Psykolog](https://dinpsykolog.se/) for their idea / instructions for this endeavour. 💚
 
+## Responsive Screenshots
+
+iPhone 12
+
+<img src="./Responsively-Screenshots/iPhone%2012%20Pro.jpeg" alt="iPhone 12" width="30%" height="30%" />
+
+iPad
+
+<img src="./Responsively-Screenshots/iPad.jpeg" alt="iPad" width="30%" height="30%" />
+
+MacBook Pro
+
+<img src="./Responsively-Screenshots/MacBook%20Pro.jpeg" alt="MacBook Pro" width="30%" height="30%" />
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
