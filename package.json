@@ -1,6 +1,8 @@
 {
   "name": "spacex-launch-viewer",
   "version": "0.1.0",
+  "author": "Behnam Baharmand",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
